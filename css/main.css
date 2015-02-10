@@ -14,3 +14,41 @@ Pseudo-classes/-elements     (a:hover)
 
 
 
+
+li:nth-child(1) a{
+  color: purple;
+  background-color: blue;
+}
+
+.month-list a{
+  text-decoration: none;
+  color: yellow;
+
+}
+
+.month-list a > .active{
+  text-decoration: underline;
+  color: green;
+
+}
+
+li:nth-child(2n) a{
+  color: pink;
+}
+
+
+li:last-child a{
+  color:red;
+}
+
+#november{
+  color: gray;
+}
+
+#november:before{
+  content: "I love my friends";
+}
+
+#november:after{
+  content: "I love my baby";
+}
